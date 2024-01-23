@@ -20,21 +20,6 @@ body{
     color: white;
 }
 
-.contacts i p:hover{
-    transition: ease-out 1s;
-}
-
-@keyframes transition {
-    from{
-        opacity: 0;
-        transform: rotateX('-10deg');
-    }
-    to{
-       opacity: 1;
-       transform: rotateX('0');
-    }
-}
-
 .back{
     display: flex;
     color: white;
@@ -49,4 +34,14 @@ body{
 
 .back i{
     color: white;
+}
+
+
+@media screen and (max-width:(786px)){
+    p{
+        display: flex;
+        padding: 25%;
+        margin-left: 5px;
+        font-size: small;
+    }
 }

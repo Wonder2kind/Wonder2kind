@@ -151,8 +151,19 @@ span:hover{
     color: black;
     transition: 0.8s;
 }
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 412px) {
 
+    span{
+        font-size: 70px;
+        transition: ease-in 1s;
+    }
+    
+    span:hover{
+        transition: 0.9s;
+        transition-delay: 0.1s;
+        font-size: 75px;
+    }
+    
     .icons {
         margin-top: -20px;
         margin-left: 5.5%;
